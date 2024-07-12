@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o,c}from"./index-yXhmna2D.js";const r={},t={class:"contents"};function s(n,_){return o(),c("div",t,"페이지 오류")}const i=e(r,[["render",s]]);export{i as default};
