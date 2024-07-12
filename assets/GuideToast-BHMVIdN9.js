@@ -1,4 +1,4 @@
-import{q as p,o as t,c as o,b as s,v as c}from"./index-Mi4WmjND.js";const l={class:"contents"},e=c(`<h2 class="guide-title">Toast</h2><h3 class="guide-stitle">1. Basic</h3><div class="guide-info script"><pre><span class="comment">// inject import</span>
+import{q as p,o as t,c as o,b as s,v as c}from"./index-wOvv38Fm.js";const l={class:"contents"},e=c(`<h2 class="guide-title">Toast</h2><h3 class="guide-stitle">1. Basic</h3><div class="guide-info script"><pre><span class="comment">// inject import</span>
 <span class="import">import</span> <span class="mark">{</span> <span class="props">inject</span> <span class="mark">}</span> <span class="import">from</span> <span class="val">&#39;vue&#39;</span>;
 
 <span class="comment">// ui.global.js의 toastModal 호출</span>
