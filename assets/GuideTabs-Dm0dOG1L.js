@@ -1,4 +1,4 @@
-import{v as a,g as n,o as p,c as t,x as l}from"./index-Cfcd8Iai.js";const c={class:"contents"},o=l(`<h2 class="guide-title">Tabs</h2><h3 class="guide-stitle">1. Basic</h3><div class="guide-info script"><pre><span class="comment">// &#39;inject&#39; import</span>
+import{v as a,g as n,o as p,c as t,x as l}from"./index-DETIen2Z.js";const c={class:"contents"},o=l(`<h2 class="guide-title">Tabs</h2><h3 class="guide-stitle">1. Basic</h3><div class="guide-info script"><pre><span class="comment">// &#39;inject&#39; import</span>
 <span class="import">import</span> <span class="mark">{</span> <span class="props">inject</span>, <span class="props">onMounted</span> <span class="mark">}</span> <span class="import">from</span> <span class="val">&#39;vue&#39;</span>;
 
 <span class="comment">// ui.global.js의 tab setup 함수 호출</span>

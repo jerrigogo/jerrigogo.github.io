@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c}from"./index-DETIen2Z.js";const e={},n={class:"contents"};function s(r,_){return t(),c("div",n,"페이지를 찾을 수 없습니다.")}const d=o(e,[["render",s]]);export{d as default};
