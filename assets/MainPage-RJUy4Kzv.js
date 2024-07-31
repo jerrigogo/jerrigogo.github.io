@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,a as c}from"./index-IN-5UTd3.js";const a={},n={class:"main-contents"},o=c("h2",{class:"main-title"},"Main",-1),_=[o];function i(r,d){return t(),s("div",n,_)}const f=e(a,[["render",i]]);export{f as default};
