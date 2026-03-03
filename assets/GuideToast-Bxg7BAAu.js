@@ -1,4 +1,4 @@
-import{y as t,c as o,m as c,a,o as l}from"./index-_1a4N0ex.js";const r={class:"contents"},u={__name:"GuideToast",setup(e){const n=t("toastModal"),p=()=>{n({id:"ToastSample1",cont:"Lorem ipsum dolor sit amet, consectetur adipisicing elit",during:3e3})};return(i,s)=>(l(),o("div",r,[s[1]||(s[1]=c(`<h2 class="guide-title">Toast</h2><h3 class="guide-stitle">Basic</h3><div class="guide-info script"><pre><span class="comment">// inject import</span>
+import{x as t,c as o,m as c,a,o as l}from"./index-DUyOpvYK.js";const r={class:"contents"},u={__name:"GuideToast",setup(e){const n=t("toastModal"),p=()=>{n({id:"ToastSample1",cont:"Lorem ipsum dolor sit amet, consectetur adipisicing elit",during:3e3})};return(i,s)=>(l(),o("div",r,[s[1]||(s[1]=c(`<h2 class="guide-title">Toast</h2><h3 class="guide-stitle">Basic</h3><div class="guide-info script"><pre><span class="comment">// inject import</span>
 <span class="import">import</span> <span class="mark">{</span> <span class="props">inject</span> <span class="mark">}</span> <span class="import">from</span> <span class="val">&#39;vue&#39;</span>;
 
 <span class="comment">// ui.global.js의 toastModal 호출</span>
