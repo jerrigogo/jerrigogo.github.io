@@ -1,4 +1,4 @@
-import{_ as l}from"./CalendarItem-CfNPcS3q.js";import{d as b,c as w,m as e,a as o,b as r,e as i,o as h}from"./index-C5C7aT0q.js";const q={class:"contents"},M={class:"guide-cont"},S={class:"guide-cont"},_={class:"guide-cont"},B={__name:"GuideCalendar",setup(C){const u=i("2026-03-16"),p=a=>{console.log(a)},t=i({minDate:null,maxDate:null}),d=()=>{let a=365,s=365;const n=new Date,f=new Date(new Date(n).setDate(new Date(n).getDate()-a)),g=new Date(new Date(n).setDate(new Date(n).getDate()+s)),m=c=>{const v=c.getFullYear(),D=String(c.getMonth()+1).padStart(2,"0"),k=String(c.getDate()).padStart(2,"0");return`${v}-${D}-${k}`};t.value.minDate=m(f),t.value.maxDate=m(g)};return b(()=>{d()}),(a,s)=>(h(),w("div",q,[s[0]||(s[0]=e(`<h2 class="guide-title">Calendar</h2><h3 class="guide-stitle">Basic</h3><div class="guide-info script"><pre><span class="comment">// component import</span>
+import{_ as c}from"./CalendarItem-khh1Wwr3.js";import{d as w,c as h,m as r,a,b as l,e as m,o as q}from"./index-ku59ml2R.js";const C={class:"contents"},S={class:"guide-cont"},M={class:"guide-cont"},_={class:"guide-cont"},x={class:"guide-cont"},F={__name:"GuideCalendar",setup(V){const u=m("2026-03-16"),n=p=>{console.log(p)},e=m({minDate:null,maxDate:null}),d=()=>{let p=20,s=24;const t=new Date,f=new Date(new Date(t).setDate(new Date(t).getDate()-p)),v=new Date(new Date(t).setDate(new Date(t).getDate()+s)),i=o=>{const D=o.getFullYear(),k=String(o.getMonth()+1).padStart(2,"0"),b=String(o.getDate()).padStart(2,"0");return`${D}-${k}-${b}`};e.value.minDate=i(f),e.value.maxDate=i(v)},g=m({start:"2026-02-14",end:"2026-03-15"});return w(()=>{d()}),(p,s)=>(q(),h("div",C,[s[0]||(s[0]=r(`<h2 class="guide-title">Calendar</h2><h3 class="guide-stitle">Basic</h3><div class="guide-info script"><pre><span class="comment">// component import</span>
 <span class="import">import</span> <span class="props">CalendarItem</span> <span class="import">from</span> <span class="val">&#39;@/components/CalendarItem.vue&#39;</span>;
 
 <span class="comment">// 날짜 선택 callback</span>
@@ -10,7 +10,7 @@ import{_ as l}from"./CalendarItem-CfNPcS3q.js";import{d as b,c as w,m as e,a as 
   <span class="props">id</span>=<span class="val">&quot;CalSample1&quot;</span>
   @<span class="props">cal-act</span>=&quot;<span class="func">selectDate</span>&quot;
 <span class="arrow">/&gt;</span>
-</pre></div>`,4)),o("div",M,[r(l,{id:"CalSample1",onCalAct:p})]),s[1]||(s[1]=e(`<h3 class="guide-stitle">Checked date (예: 2026-03-16)</h3><div class="guide-info script"><pre><span class="comment">// 날짜 지정 예시</span>
+</pre></div>`,4)),a("div",S,[l(c,{id:"CalSample1",onCalAct:n})]),s[1]||(s[1]=r(`<h3 class="guide-stitle">Checked date (예: 2026-03-16)</h3><div class="guide-info script"><pre><span class="comment">// 날짜 지정 예시</span>
 <span class="tag">const</span> <span class="evt">sampleDefineDate</span> = <span class="func">ref</span><span class="mark">(<span class="val">&#39;2026-03-16&#39;</span>)</span>;
 </pre></div><div class="guide-info html"><pre><span class="comment">// define-date 속성에 선택 날짜 지정</span>
 <span class="arrow">&lt;</span><span class="component">calendar-item</span>
@@ -18,7 +18,7 @@ import{_ as l}from"./CalendarItem-CfNPcS3q.js";import{d as b,c as w,m as e,a as 
   :<span class="props">define-date</span>=&quot;<span class="props">sampleDefineDate</span>&quot;
   @<span class="props">cal-act</span>=&quot;<span class="func">selectDate</span>&quot;
 <span class="arrow">/&gt;</span>
-</pre></div>`,3)),o("div",S,[r(l,{id:"CalSample2","define-date":u.value,onCalAct:p},null,8,["define-date"])]),s[2]||(s[2]=e(`<h3 class="guide-stitle">날짜 제한 설정: minDate, maxDate</h3><div class="guide-info script"><pre><span class="import">import</span> <span class="mark">{</span> <span class="props">ref</span>, <span class="props">onBeforeMount</span> <span class="mark">}</span> = <span class="val">&#39;vue&#39;</span>;
+</pre></div>`,3)),a("div",M,[l(c,{id:"CalSample2","define-date":u.value,onCalAct:n},null,8,["define-date"])]),s[2]||(s[2]=r(`<h3 class="guide-stitle">날짜 제한 설정: minDate, maxDate</h3><div class="guide-info script"><pre><span class="import">import</span> <span class="mark">{</span> <span class="props">ref</span>, <span class="props">onBeforeMount</span> <span class="mark">}</span> = <span class="val">&#39;vue&#39;</span>;
 
 <span class="comment">// 날짜 제한 예시</span>
 <span class="tag">const</span> <span class="evt">sampleMinMax</span> = <span class="func">ref<span class="mark">(</span>{</span>
@@ -59,4 +59,4 @@ import{_ as l}from"./CalendarItem-CfNPcS3q.js";import{d as b,c as w,m as e,a as 
   :<span class="props">limit-date</span>=&quot;<span class="props">sampleMinMax</span>&quot;
   @<span class="props">cal-act</span>=&quot;<span class="func">selectDate</span>&quot;
 <span class="arrow">/&gt;</span>
-</pre></div>`,3)),o("div",_,[r(l,{id:"CalSample3","limit-date":t.value,onCalAct:p},null,8,["limit-date"])])]))}};export{B as default};
+</pre></div>`,3)),a("div",_,[l(c,{id:"CalSample3","limit-date":e.value,onCalAct:n},null,8,["limit-date"])]),s[3]||(s[3]=a("h3",{class:"guide-stitle"},"날짜 영역(기간) 선택",-1)),a("div",x,[l(c,{id:"CalSample4",range:g.value,onCalAct:n},null,8,["range"])])]))}};export{F as default};
