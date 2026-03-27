@@ -1,0 +1,1 @@
+import{e as r}from"./index-BCeJJJtI.js";const u=()=>{const e=r(),t=()=>{const o=window.innerWidth,s=navigator.userAgent,i=/iPhone|iPod/.test(s),n=/Macintosh|iPad/.test(s),a=/android/i.test(s);i||a||n&&navigator.maxTouchPoints>0?e.value=!0:e.value=!1,o<=1024?e.value=!0:e.value=!1};return t(),{isMobile:e,chkBrowser:t}};export{u as c};
