@@ -1,1 +1,0 @@
-import{r as a,a as r,o as n,c,b as t,d as u,u as _}from"./index-1vSCw4ZG.js";const i={class:"container"},l={class:"contents"},v={__name:"LayoutBasic",setup(m){const o=_();return a(o.currentRoute.value.meta.title),(p,e)=>{const s=r("router-view");return n(),c("main",i,[t("div",l,[e[0]||(e[0]=t("span",null,"test",-1)),u(s)])])}}};export{v as default};

@@ -1,1 +1,0 @@
-import{r as a}from"./index-1vSCw4ZG.js";const d=()=>{const e=a(),s=()=>{const i=window.innerWidth,t=navigator.userAgent,n=/iPhone|iPod/.test(t),o=/Macintosh|iPad/.test(t),r=/android/i.test(t);n||r||o&&navigator.maxTouchPoints>0?e.value=!0:e.value=!1,i<=1024?e.value=!0:e.value=!1};return s(),window.addEventListener("resize",s),{isMobile:e,chkBrowser:s}};export{d as c};
