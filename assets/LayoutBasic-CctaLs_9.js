@@ -1,1 +1,0 @@
-import{r as s,o as n,c as a,a as t,b as r}from"./index-Dv4y4kXm.js";const c={class:"container"},_={class:"contents"},m={__name:"LayoutBasic",setup(i){return(l,e)=>{const o=s("router-view");return n(),a("main",c,[t("div",_,[e[0]||(e[0]=t("span",null,"test2",-1)),r(o)])])}}};export{m as default};
