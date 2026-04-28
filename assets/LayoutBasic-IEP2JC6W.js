@@ -1,0 +1,1 @@
+import{r as o,o as t,c as a,a as r}from"./index-CrKOyOyO.js";const c={class:"container"},m={__name:"LayoutBasic",setup(n){return(s,_)=>{const e=o("router-view");return t(),a("main",c,[r(e)])}}};export{m as default};
