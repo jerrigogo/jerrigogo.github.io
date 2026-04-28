@@ -1,0 +1,1 @@
+import{r as o,o as r,c as s,a,b as n}from"./index-D1y_3NmS.js";const c={class:"container"},p={__name:"LayoutBasic",setup(_){return(i,e)=>{const t=o("router-view");return r(),s("main",c,[e[0]||(e[0]=a(" test ",-1)),n(t)])}}};export{p as default};
