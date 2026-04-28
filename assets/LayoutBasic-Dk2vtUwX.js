@@ -1,0 +1,1 @@
+import{o as t,c as a,a as s,b as o,u as n,R as c}from"./index-DGxEfZnS.js";const r={class:"container"},_={class:"contents"},p={__name:"LayoutBasic",setup(i){return(u,e)=>(t(),a("main",r,[s("div",_,[e[0]||(e[0]=s("span",null,"test7",-1)),o(n(c))])]))}};export{p as default};
