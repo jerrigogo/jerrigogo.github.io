@@ -1,1 +1,0 @@
-import{r as s,o as a,c as n,a as t,b as r,u as c}from"./index-Ddpsv8UV.js";const _={class:"container"},u={class:"contents"},m={__name:"LayoutBasic",setup(i){return c(),(l,e)=>{const o=s("router-view");return a(),n("main",_,[t("div",u,[e[0]||(e[0]=t("span",null,"test2",-1)),r(o)])])}}};export{m as default};
