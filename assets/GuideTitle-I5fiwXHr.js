@@ -1,0 +1,1 @@
+import{_ as t}from"./BreadcrumbItem-iHdNSCOK.js";import{c as a,d as s,f as i,e as o,t as c}from"./index-De30npJZ.js";const r={class:"guide-title-wrap"},l={class:"guide-title"},m={__name:"GuideTitle",props:{pageTitle:{type:String,default:null}},setup(e){return(_,n)=>(a(),s("div",r,[i(t),o("h2",l,c(e.pageTitle),1)]))}};export{m as _};
