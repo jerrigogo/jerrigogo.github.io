@@ -1,6 +1,0 @@
-import{X as r,c as l,a as n,u as e,b as d,i as o,F as p,o as u,j as t}from"./index-C5fIG28o.js";import{_ as g}from"./AccordionItem-bHBYlMC9.js";const c={class:"guide-cont type-row"},m={class:"guide-cont"},L={__name:"GuideSpinner",setup(S){const a=r();return(f,s)=>(u(),l(p,null,[s[6]||(s[6]=n("h3",{class:"guide-stitle"},"Default",-1)),n("div",c,[n("button",{type:"button",class:"btn-primary",onClick:s[0]||(s[0]=i=>e(a).setLoading("start"))},[...s[2]||(s[2]=[n("span",null,"Spinner Start",-1)])]),n("button",{type:"button",class:"btn-primary loading-end",onClick:s[1]||(s[1]=i=>e(a).setLoading("end"))},[...s[3]||(s[3]=[n("span",null,"Spinner Ends",-1)])])]),n("div",m,[d(g,{id:"SpinnerAcco"},{accoTitle:o(()=>[...s[4]||(s[4]=[t("Code 보기",-1)])]),accoPanel:o(()=>[...s[5]||(s[5]=[n("div",{class:"guide-info script"},[n("pre",null,[t(""),n("span",{class:"comment"},"// loading start: loadingStore.setLoading() 함수에 'start' parameter 추가"),t(`
-`),n("span",{class:"props"},"loadingStore"),t("."),n("span",{class:"func"},[t("setLoading("),n("span",{class:"val"},"'start'"),t(")")]),t(`
-
-`),n("span",{class:"comment"},"// loading end: loadingStore.setLoading() 함수에 'end' parameter 추가"),t(`
-`),n("span",{class:"props"},"loadingStore"),t("."),n("span",{class:"func"},[t("setLoading("),n("span",{class:"val"},"'end'"),t(")")]),t(`
-`)])],-1)])]),_:1})])],64))}};export{L as default};
