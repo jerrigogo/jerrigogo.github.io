@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,a as s,o as n}from"./index-CdpVR2Mr.js";const r={},c={class:"contents"};function a(_,e){return n(),t("div",c,[...e[0]||(e[0]=[s("h2",null,"대출상품",-1)])])}const d=o(r,[["render",a]]);export{d as default};
