@@ -1,1 +1,0 @@
-import{_ as s}from"./BreadcrumbComp-BP_g266A.js";import{c as t,b as o,a,o as r}from"./index-DU9WV7o_.js";const n={class:"contents"},p={__name:"SMPL02010000",setup(c){return(_,e)=>(r(),t("div",n,[o(s),e[0]||(e[0]=a("h2",null,"대출상품",-1))]))}};export{p as default};
