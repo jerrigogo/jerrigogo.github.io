@@ -1,0 +1,6 @@
+import{Y as r,c as i,a as n,u as e,b as l,j as d,F as p,o as u,k as t}from"./index-CWx3Oa3O.js";import{_ as g}from"./CollapseComp-CO3-BEaq.js";const c={class:"guide-cont type-row"},m={class:"guide-cont"},L={__name:"GuideSpinner",setup(S){const a=r();return(f,s)=>(u(),i(p,null,[s[5]||(s[5]=n("h3",{class:"guide-stitle"},"Default",-1)),n("div",c,[n("button",{type:"button",class:"btn-primary",onClick:s[0]||(s[0]=o=>e(a).setLoading("start"))},[...s[2]||(s[2]=[n("span",null,"Spinner Start",-1)])]),n("button",{type:"button",class:"btn-primary loading-end",onClick:s[1]||(s[1]=o=>e(a).setLoading("end"))},[...s[3]||(s[3]=[n("span",null,"Spinner Ends",-1)])])]),n("div",m,[l(g,{id:"SpinnerAcco",title:"Code 보기"},{panel:d(()=>[...s[4]||(s[4]=[n("div",{class:"guide-info script"},[n("pre",null,[t(""),n("span",{class:"comment"},"// loading start: loadingStore.setLoading() 함수에 'start' parameter 추가"),t(`
+`),n("span",{class:"props"},"loadingStore"),t("."),n("span",{class:"func"},[t("setLoading("),n("span",{class:"val"},"'start'"),t(")")]),t(`
+
+`),n("span",{class:"comment"},"// loading end: loadingStore.setLoading() 함수에 'end' parameter 추가"),t(`
+`),n("span",{class:"props"},"loadingStore"),t("."),n("span",{class:"func"},[t("setLoading("),n("span",{class:"val"},"'end'"),t(")")]),t(`
+`)])],-1)])]),_:1})])],64))}};export{L as default};
